@@ -3,6 +3,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
+// The fridge has seen things no crisper drawer should ever witness.
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 const line = '3am. The leftovers you hid behind the pickles are gone. I watched you eat them. Standing up. In the dark. Like a raccoon.';
 
